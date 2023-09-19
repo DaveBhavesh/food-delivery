@@ -1,0 +1,309 @@
+/*Css Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*Div starting*/
+#div1{
+    background:url('bg1.jpg')no-repeat center center/cover;
+}
+/* Navigation Bar*/
+#navbar{
+    display: flex;
+    background-color:transparent;
+}
+/*Navigation Bar: Logo and image*/
+#logo img{
+    margin: 10px 45px;
+    height: 80px;
+    border-radius: 50%;
+}
+/*Navigation Bar: List Styling*/
+#navbar ul{
+    display: flex;
+    margin: 10px ;
+    
+}
+
+#navbar ul li{
+    list-style:none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#navbar ul li a{
+    display: block;
+    padding: 1px 15px;
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+/*Home Section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    text-align: center;
+}
+#home h1{
+    font-family: cursive;
+    padding: 30px;
+    font-weight: 10000;
+    font-size: 2.5rem;
+    text-align: center;
+    color: maroon;
+}
+#home p{
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    color:maroon;
+    padding: 10px;
+}
+#home button{
+    padding: 1px 10px;
+    border: 2px solid ;
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 10% ;
+    cursor: pointer;
+}
+#home button:hover{
+    background-color: maroon;
+    color: white;
+    border: 2px solid  black;
+}
+/*Services Section*/
+
+#services h1{
+    text-align: center;
+    font-family: monospace;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    font-size: 2.5rem;
+    font-weight: 10000;
+}
+#div-services{
+    margin: 15px;
+    display: flex;
+}
+    #div-services1{
+    border: 2px solid maroon;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: lightgray;
+    
+}
+#div-services1 img{
+    margin: auto;
+    display: block;
+}
+#div-services1 h2{
+    color: violet;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 12px;
+    text-align: center;
+}
+#div-services1 p{
+    font-family: monospace;
+    font-weight: 500;
+}
+/*-----------------------------------*/
+#div-services2{
+    border: 2px solid maroon;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: lightgray;
+}
+#div-services2 img{
+    margin: auto;
+    display: block;
+}
+#div-services2 h2{
+    color: violet;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 12px;
+    text-align: center;
+}
+#div-services2 p{
+    font-family: monospace;
+    font-weight: 500;
+}
+/*-----------------------------------*/
+#div-services3{
+    border: 2px solid maroon;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color:lightgray;
+}
+#div-services3 img{
+    margin: auto;
+    display: block;
+}
+#div-services3 h2{
+    color: violet;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 12px;
+    text-align: center;
+}
+#div-services3 p{
+    font-family: monospace;
+    font-weight: 500;
+}
+
+/*Client & About Us Section*/
+
+#clients{
+    background: url('bg2.jpg') no-repeat center center/cover;
+}
+
+#clients h1{
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin: 15px;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+#div-clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div-clients1{
+    padding: 12px;
+    margin: 10px;    
+}
+#div-clients1 img{
+    height: 100px;
+}
+
+#div-clients2{
+    padding: 12px;
+    margin: 10px;
+}
+#div-clients2 img{
+    height: 100px;
+}
+
+#div-clients3{
+    padding: 12px;
+    margin: 10px;
+}
+#div-clients3 img{
+    height: 100px;
+}
+
+#div-clients4{
+    padding: 12px;
+    margin: 10px;
+}
+#div-clients4 img{
+    height: 100px;
+}
+
+#div-clients5{
+    padding: 12px;
+    margin: 10px;
+}
+#div-clients5 img{
+    height: 100px;
+}
+
+/*COntact Us*/
+
+#contact{
+    background:url('bg3.jpg') no-repeat center center/cover;
+}
+#contact h1{
+    margin: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+#contact1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact1 form{
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#name input{
+    width: 100%;
+    padding: 0.2rem;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+#mobile input{
+    width: 100%;
+    padding: 0.2rem;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+#email input{
+    width: 100%;
+    padding: 0.2rem;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+#textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: cursive;
+    border-radius: 10px;    
+}
+
+
+
+
+/*Footer*/
+
+#div-footer{
+    text-align: right;
+    background-color:black;
+    color: white;
+}
+
+
+
+
+
+
